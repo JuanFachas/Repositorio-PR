@@ -1,5 +1,3 @@
-
-  
 ## El Pistón Rojo
 
 ---

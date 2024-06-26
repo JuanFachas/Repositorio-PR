@@ -1,5 +1,3 @@
-# El Pistón Rojo
-
 <p text-align="center">
   ## El Pistón Rojo
 </p>

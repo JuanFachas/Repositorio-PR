@@ -22,13 +22,14 @@ Después de hablar con el gerente de "El Pistón Rojo", identificamos desafíos 
 
 ## Justificación
 
-[Explicación de por qué es importante abordar esta problemática y qué beneficios se esperan obtener.]
+Ante la necesidad de optimizar los procesos internos de la empresa "El Piston Rojo", enfocada en ofrecer servicios de reparación de motocicletas, se ha identificado la oportunidad de desarrollar un  sistema de información especializado, Su enfoque en la prestación de servicios de reparación  y venta de repuestos requiere de una gestión eficiente de inventario y programación de citas además la implementación de un sistema de información adecuado no solo mejorará la productividad y eficiencia operativa, sino que también fortalecerá la satisfacción del cliente a la hora de buscar losl servicios de reparación.
 
 ---
 
 ## Alcance y Delimitación
 
-- **Alcance:** [Descripción de los límites y extensión del proyecto.]
-- **Delimitación:** [Factores o áreas específicas que están fuera del alcance del proyecto.]
-
+- **Alcance:** El proyecto tiene como objetivo principal desarrollar e implementar un sistema de información para "El Pistón Rojo", centrado en la venta de repuestos y reparación de motos. Este sistema optimizará la gestión de inventario, servicios de reparación y atención al cliente. Se establece un período de desarrollo de 6 trimestres para completar el proyecto, desde la planificación inicial hasta la implementación y fase final. El sistema mostrará una variedad de repuestos disponibles y servicios de reparación, además de integrar un sistema de búsqueda para facilitar la navegación a los usuarios. También incluirá un formulario de contacto para consultas, cotizaciones y programación de citas de servicio.
+  
+- **Delimitación:** El proyecto estará limitado por el tiempo disponible de 6 trimestres para su desarrollo, así como por los recursos humanos y financieros asignados. Se enfocará en las áreas y procesos identificados, dejando fuera aspectos como contabilidad y finanzas que serán manejados por sistemas independientes. Además, se pondrá énfasis en las funcionalidades principales identificadas, asegurando que el sistema de información sea eficiente y cumpla con los requisitos clave de "El Piston Rojo", dejando de lado funcionalidades adicionales que podrían ser consideradas en etapas futuras del proyecto.
+  
 ---

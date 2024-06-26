@@ -13,6 +13,7 @@ Después de hablar con el gerente de "El Pistón Rojo", identificamos desafíos 
 ## Objetivos
 
 **Objetivo General:** Para mejorar la eficiencia y la satisfacción en "El Pistón Rojo", proponemos implementar un sistema de gestión de inventario eficiente. Esto reducirá los tiempos de espera en las reparaciones de motos y mejorará la experiencia del cliente. Además, integraremos un sistema de agendamiento de citas para resolver la congestión y asegurar un flujo de trabajo más ordenado y predecible.
+
 **Objetivos Específicos:** 
 - Desarrollar un sistema de gestión de inventario digitalizado para administrar eficientemente los repuestos disponibles en "El Pistón Rojo".
 - Desarrollar un agendamiento de citas para no sobrecargar de motos y clientes el taller.

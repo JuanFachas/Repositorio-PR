@@ -148,7 +148,7 @@
     <div class="form-container">
         <div class="form-header">
             <!-- Enlace de la imagen con redirección a la página principal -->
-            <a href="../index.php">
+            <a href="../inicio.php">
                 <img src="http://localhost/piston_rojo/imagenes/logo.png" alt="Logo">
             </a>
             <div class="button-container">

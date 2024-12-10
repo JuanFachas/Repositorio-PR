@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gestion Citas</title>
-    <link rel="stylesheet" href="css/estilosjv.css">
+    <link rel="stylesheet" href="../css/estilosjv.css">
+    <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5ISopW55GkEx6mAxJmesnHm3pF-Crx78&callback=console.debug&libraries=maps,marker&v=beta"></script>   
 </head>
 
 <body>
@@ -13,82 +14,46 @@
     <nav class="navbar">
         <div class="container">
             <div class="logo">
-                <a href="Index.php"><img src="imagenes/Logo.png" alt="Logo" class="logo"></a>
+                <a href="../Index.php"><img src="../imagenes/Logo.png" alt="Logo" class="logo"></a>
             </div>
             <ul class="menu-navegacion">
-                <li><a href="Index.php">Inicio</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="agendar.php" class="btn-agendar">Agendar una cita</a></li>
-            </ul>
+                <li><a href="../Index.php">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li> <!-- Enlace hacia la sección de servicios -->
+                <li><a href="#agendar-cita" class="btn-agendar">Agendar una cita</a></li> <!-- Enlace hacia la sección de agendar cita -->
+                
         </div>
     </nav>
 
     <!-- Encabezado -->
-    <header class="header">
+    <header id="agendar-cita" class="header">
         <h1>Piston Rojo</h1>
         <p>Si necesitas nuestro servicio con <strong>URGENCIA</strong> escríbenos a WhatsApp</p>
         <a href="tel:3103487220" class="btn-contacto">Contáctanos</a>
         <br>
         <p>Si necesitas agendar una cita puedes hacerlo aquí</p>
+        <br>
+        <br>
+        <br>
+        
+        <li><a href="http://127.0.0.1:8000/citas" class="btn-contacto">Agenda Tu cita</a></li>
 
-        <!-- Formulario -->
-        <main id="1" class="container my-5">
-            <form id="myForm" method="POST" action="procesar_formulario.php">
-                <!-- Tipo de documento -->
-                <div class="mb-3">
-                    <label for="tipo-documento" class="form-label">Tipo de Documento</label>
-                    <select id="tipo-documento" name="tipo_documento" class="form-select" required>
-                        <option value="" selected disabled>Seleccione una opción</option>
-                        <option value="cc">Cédula de Ciudadanía</option>
-                        <option value="ti">Tarjeta de Identidad</option>
-                        <option value="ce">Cédula de Extranjería</option>
-                    </select>
-                </div>
-
-                <!-- Número de documento -->
-                <div class="mb-3">
-                    <label for="num-documento" class="form-label">Número de Documento</label>
-                    <input type="text" id="num-documento" name="num_documento" class="form-control" placeholder="Ingresa tu número de documento" required>
-                </div>
-
-                <!-- Tipo de servicio -->
-                <div class="mb-3">
-                    <label for="tipo-servicio" class="form-label">Tipo de Servicio</label>
-                    <select id="tipo-servicio" name="tipo_servicio" class="form-select" required>
-                        <option value="" selected disabled>Seleccione una opción</option>
-                        <option value="mantenimiento">Mantenimiento</option>
-                        <option value="reparacion">Reparación</option>
-                        <option value="diagnostico">Diagnóstico</option>
-                    </select>
-                </div>
-
-                <!-- Nombre y Apellido -->
-                <div class="row">
-                    <div class="col-md-6 mb-3">
-                        <label for="nombre" class="form-label">Nombre</label>
-                        <input type="text" id="nombre" name="nombre" class="form-control" placeholder="Ingresa tu nombre" required>
-                    </div>
-                    <div class="col-md-6 mb-3">
-                        <label for="apellido" class="form-label">Apellido</label>
-                        <input type="text" id="apellido" name="apellido" class="form-control" placeholder="Ingresa tu apellido" required>
-                    </div>
-                </div>
-
-                <!-- Botón de envío -->
-                <div class="text-center">
-                    <button type="submit" class="btn btn-danger btn-lg">Siguiente</button>
-                </div>
-            </form>
+     </form>
         </main>
     </header>
+       
+           
+           
+
+             
+               
 
    <!-- Nueva sección con texto e imagen -->
-<div class="text-and-image-section">
+<div  class="text-and-image-section">
     <!-- Contenedor de texto e imagen a la derecha -->
-    <div class="text-and-image-container">
+    <div id="servicios" class="text-and-image-container">
         <!-- Sección de texto -->
-        <div class="text-box">
-            <h1 class="text-large">Servicio de Piston Rojo Profesional</h1>
+        <div  class="text-box">
+            <h1  class="text-large" >Servicio de Piston Rojo Profesional</h1>
             <br>
             <p class="text-medium">
             En Piston Rojo nos apasiona la excelencia en el rendimiento de las motos. Nuestro servicio de puesta a punto incluye:<br>
@@ -104,10 +69,12 @@
             </p>
            <br>
            <br>
-            <button class="action-button">▶ AGENDA TU CITA</button>
+           <a href="#agendar-cita">
+    <button class="action-button">▶ AGENDA TU CITA</button>
+</a>
         </div>
         <!-- Imagen a la derecha -->
-        <img src="imagenes/22.png" alt="Servicio de Piston Rojo" class="right-image">
+        <img src="../imagenes/22.png" alt="Servicio de Piston Rojo" class="right-image">
     </div>
 
     <!-- Descripción Central -->
@@ -133,12 +100,43 @@
             <br>
             <br>
             
-            <button class="action-button">▶ AGENDA TU CITA</button>
+            <a href="#agendar-cita">
+    <button class="action-button">▶ AGENDA TU CITA</button>
+</a>
         </div>
         <!-- Imagen a la derecha -->
-        <img src="imagenes/11.png" alt="Beneficios Piston Rojo" class="right-image">
+        <img src="../imagenes/11.png" alt="Beneficios Piston Rojo" class="right-image">
     </div>
 </div>
+
+<div class="elementor-1240 elementor-element elementor-element-9ac4d4f"
+        style="width: 80%; height: 400px; margin: 20px auto; display: flex; justify-content: center; align-items: center;">
+        <gmp-map center="4.486197,-74.101221" zoom="19" map-id="DEMO_MAP_ID" style="width: 100%; height: 100%;">
+            <gmp-advanced-marker position="4.486197,-74.101221" title="Cl. 114b Sur #7f Este-1"></gmp-advanced-marker>
+        </gmp-map>
+    </div>
+
+
+    <div class="footer">
+        <div class="contacts">
+            <p>Contactenos: +57 3053055073</p>
+            <p>Ubicación: Calle 109 sur # 7 este 14, Bogotá, Colombia</p>
+        </div>
+        <div class="footer-links">
+            <p><a href="#">Política Tratamiento de datos</a></p>
+            <p><a href="#">Repositorio de motos</a></p>
+        </div>
+        <div class="social-media">
+            <a href="https://www.facebook.com/miltonjulio.vargasgonzalez" target="_blank">
+                <img src="../imagenes/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://www.whatsapp.com/" target="_blank">
+                <img src="../imagenes/whatsap.jpg" alt="Instagram">
+            </a>
+
+        </div>
+    </div>
+
 
 
     <script>

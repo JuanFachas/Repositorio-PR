@@ -7,8 +7,8 @@
     <title>Piston Rojo</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
-    <link rel="stylesheet" href="css/estilosjv.css">
-    <link rel="icon" type="image/png" href="imagenes/Logo.png">
+    <link rel="stylesheet" href="../css/estilosjv.css">
+    <link rel="icon" type="image/png" href="../imagenes/Logo.png">
 </head>
 <body>
 
@@ -25,8 +25,8 @@
             </button>
             <header>
                 <h1 class="logo">
-                    <a href="Index.php">
-                        <img class="dv" src="imagenes/Logo.png" alt="Piston Rojo Logo">
+                    <a href="../Index.php">
+                        <img class="dv" src="../imagenes/Logo.png" alt="Piston Rojo Logo">
                     </a>
                     Piston Rojo
                 </h1>
@@ -34,13 +34,19 @@
             <nav>
                 <ul class="menu">
                     <li>
-                        <a href="indexjv.html" class="boton-menu boton-categoria active"><i class="bi bi-house-door-fill"></i> Inicio</a>
+                        <a href="../indexjv.html" class="boton-menu boton-categoria active"><i class="bi bi-house-door-fill"></i> Inicio</a>
                     </li>
                     <li>
-                        <a href="Controlador/controladorProducto.php" class="boton-menu boton-categoria"><i class="bi bi-list-ul"></i> Productos</a>
+                        <a href="../Controlador/controladorProducto.php" class="boton-menu boton-categoria"><i class="bi bi-list-ul"></i> Productos</a>
                     </li>
                     <li>
-                        <a href="citas.html" class="boton-menu boton-categoria"><i class="bi bi-person-fill"></i> Citas</a>
+                        <a href="http://127.0.0.1:8000/admin" class="boton-menu boton-categoria"><i class="bi bi-calendar"></i> Citas</a>
+                    </li>                    
+
+                    <li>
+                        <a href="../Controlador/controladorproveedor.php" class="boton-menu boton-categoria"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-building-fill" viewBox="0 0 16 16">
+                            <path d="M3 0a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h3v-3.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 .5.5V16h3a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1zm1 2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3.5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5M4 5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zM7.5 5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5m2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zM4.5 8h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5m2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3.5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5"/>
+                          </svg> Provedores</a>
                     </li>
                     
                 </ul>
@@ -49,7 +55,7 @@
                 <p class="texto-footer">© 2024 Piston Rojo</p>
             </footer>
         </aside>
-        <main>
+        <main class="PR">
             <h2 class="titulo-principal" id="titulo-principal">Bienvenido Administrador</h2>
             <div id="contenedor-productos" class="contenedor-productos">
                 <!-- Esto se va a rellenar con JS -->
